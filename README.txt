@@ -21,4 +21,4 @@ Ou lancer le fichier exécutable "Projet_c" situé dans le fichier "cmake-build-
 
 Une fois ouvert, appuyez sur le bouton play (triangle vert) en haut à droite (sur CLION)
 
-Enfin, suivez les consignes dans la console.
+Enfin, suivez les consignes dans la console^, ou tapez help pour voir toutes les commandes.
