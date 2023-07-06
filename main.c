@@ -9,8 +9,8 @@
  */
 int main() {
     unsigned int taille,largeur=20;
-    printf("Bienvenu dans ce projet en C de dessin  !!");
-    printf("\nTout d'abord chosissez une taille pour votre zone de dessin : ");
+    printf("Bienvenue dans ce projet en C de dessin vectoriel  !!");
+    printf("\nTout d'abord choisissez une taille pour votre zone de dessin : ");
     scanf(" %d", &taille);
     while (getchar() != '\n');
     Area* area=create_area(taille, taille);
