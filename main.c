@@ -10,8 +10,18 @@
 int main() {
     unsigned int taille,largeur=20;
     printf("Bienvenue dans ce projet en C de dessin vectoriel  !!");
-    printf("\nTout d'abord choisissez une taille pour votre zone de dessin : ");
-    scanf(" %d", &taille);
+    int input;
+    do{
+        printf("\nTout d'abord choisissez une taille pour votre zone de dessin : ");
+        input= scanf("%d", &taille);
+        if (input != 1 || taille <= 0){
+            printf("Veuillez entrez un entier positif uniquement");
+
+            while (getchar() != '\n');
+        }
+    }while (input != 1 || taille <= 0);
+
+    scanf("%d", &taille);
     while (getchar() != '\n');
     Area* area=create_area(taille, taille);
     clear_area(area);
