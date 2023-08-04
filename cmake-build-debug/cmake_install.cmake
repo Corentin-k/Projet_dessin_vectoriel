@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/koco/OneDrive - Efrei/L1/Informatique/Projet_C-V2
+# Install script for directory: C:/Users/kej04/OneDrive - Efrei/EFREI/Semestre_2/C/projet-fix/Projet_dessin_vectoriel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/koco/OneDrive - Efrei/L1/Informatique/Projet_C-V2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/kej04/OneDrive - Efrei/EFREI/Semestre_2/C/projet-fix/Projet_dessin_vectoriel/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
